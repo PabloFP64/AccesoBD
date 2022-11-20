@@ -50,6 +50,26 @@
         android:textColorHint="@color/white"
         android:layout_marginBottom="30dp"
         android:paddingLeft="20dp" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/BotonReg"
+        android:text="Registrar"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/BotonLog"
+        android:text="or Log In"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
 
 
 
