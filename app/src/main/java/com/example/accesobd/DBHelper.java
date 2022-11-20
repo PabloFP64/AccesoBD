@@ -2,6 +2,7 @@ package com.example.accesobd;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -33,5 +34,14 @@ public class DBHelper extends SQLiteOpenHelper {
         if(result==-1) return false;
         else
             return true;
+    }
+
+    public Boolean checkUsername(String username) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery("select * from users where username=?", new String[] {username});
+        if(cursor.getCount()>0)
+            return true;
+        else
+            return false;
     }
 }
