@@ -22,7 +22,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/username"
+        android:id="@+id/usernameLog"
         android:hint="Usuario"
         android:textSize="25dp"
         android:textAlignment="center"
@@ -33,7 +33,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/password"
+        android:id="@+id/passwordLog"
         android:hint="Contraseña"
         android:textSize="25dp"
         android:textAlignment="center"
@@ -44,7 +44,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/BotonReg"
+        android:id="@+id/BotonLogin"
         android:text="Log in"
         android:textSize="20dp"
         android:layout_marginBottom="30dp"
